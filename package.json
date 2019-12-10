@@ -1,0 +1,11 @@
+{
+  "name": "cucumberjs-selenium",
+  "version": "1.0.0",
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "selenium-cucumber-js": "^1.7.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions"
+  }
+}
