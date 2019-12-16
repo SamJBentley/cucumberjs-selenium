@@ -7,6 +7,6 @@
   "scripts": {
     "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -b headlessChromeDriver.js",
     "headless": "npm test",
-    "nonHeadless": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -b chrome"
+    "gui": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -b chrome"
   }
 }
